@@ -84,7 +84,7 @@
     text-align: center;
 }
 
-.button-info {
+.button-info{
     background: #ff900e;
     border-radius: 8px;
     font-size: 20px;
@@ -126,6 +126,10 @@
     object-position: left;
     
 }
+.team-image{
+    overflow: hidden;
+}
+
 .feature-text{
     width: 540px;
     
@@ -138,3 +142,43 @@
 .feature-text .explore-button{
     text-align: left;
 }
+.quick-list{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.feature-textmid{
+    font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #100e0e;
+}
+.feature-textlast{
+    font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
+}
+.feature-description{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.explore {
+    background: #ff900e;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    /* --------------Feature End---------- */
+ /* =============Feature Part 2============= */
+ .
