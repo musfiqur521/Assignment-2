@@ -3,3 +3,51 @@
     margin: 0;
     padding: 0;
 }
+
+/* ---------------Head Section------------ */
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0; 
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.company {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+
+}
+.nav-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+
+
+}
+.nav-menu ul li a:hover{
+    color: #ff900e;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+} 
+
+/* ----------Banner Image Part------------ */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
