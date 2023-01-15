@@ -2,12 +2,13 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* ---------------Head Section------------ */
 
 .header {
-    background: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 }
 
 .section {
@@ -64,8 +65,11 @@
 .banner-title {
 
     font-weight: 700;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     text-align: center;
     color: #131313;
     margin-bottom: 20px;
@@ -179,15 +183,16 @@
     border: none;
     cursor: pointer;
 
-    /* --------------Feature End---------- */
 
 
-.feature-part2{
+}
+ /* --------------Feature End---------- */
+ .feature-2 {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 3rem;
     align-items: center;
-}
+ }
 .left-border{
     border-left: 5px solid #FF900E;
     padding-left: 1rem;
@@ -198,3 +203,127 @@
     border-radius: 8px;
     margin-bottom: 1rem;
 }
+.feature-box h4{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.love-image{
+    
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.love-image img{
+  
+    left: 4rem;
+    bottom: 4rem;
+    width: calc(100% - 4rem);
+    height: calc(100% - 4rem);
+    object-fit: contain;
+    object-position: bottom left;
+}
+.experience-card {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #FF900E;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.experience-card h1 {
+    font-size: 3.5rem;
+    color: #fff
+}
+..experience-card h1 {
+    font-size: 3.5rem;
+    color: #fff
+}
+
+/* ============Some Facts Part=========== */
+.facts_details  {
+   gap: 1.5rem;
+    margin:3rem auto;
+    max-width: 545px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .section_description {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+  }
+  
+  .facts_items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .facts_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 35px;
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    position: relative;
+    top: 0;
+    transition: 0.5s ease;
+  }
+  .facts_item:hover {
+    top: -20px;
+  }
+  
+  .facts_item_title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: #424242;
+    margin: 10px 0;
+  }
+  
+  .facts_item_subTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+  }
+  /* =================Sponsor Section Start=========== */
+  
+  .sponsor{
+    text-align: center;
+  }
+  .sponsor .section-content{
+    align-items: center;
+    gap: 1.5rem;
+    width: 550px;
+    margin: 25px auto;
+  }
+  .sponsor-container{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .sponsor-image img {
+    filter: grayscale(100%);
+}
+.sponsor-image img:hover {
+    filter: grayscale(0%);
+}
+
+/* =================Footer part============== */
+
+footer {
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
