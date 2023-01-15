@@ -180,5 +180,21 @@
     cursor: pointer;
 
     /* --------------Feature End---------- */
- /* =============Feature Part 2============= */
- .
+
+
+.feature-part2{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+}
+.left-border{
+    border-left: 5px solid #FF900E;
+    padding-left: 1rem;
+}
+.feature-box {
+    padding: 1rem;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
