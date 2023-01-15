@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -6,19 +6,21 @@
 
 /* ---------------Head Section------------ */
 
-.header{
+.header {
     background: rgba(255, 144, 14, 0.1);
 }
-.section{
+
+.section {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 50px 0; 
+    padding: 50px 0;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
 }
+
 .company {
     color: #131313;
     font-size: 45px;
@@ -27,14 +29,16 @@
     text-align: center;
 
 }
-.nav-menu ul li{
+
+.nav-menu ul li {
     list-style-type: none;
     display: inline-block;
     margin: 20px;
 
 
 }
-.nav-menu ul li a:hover{
+
+.nav-menu ul li a:hover {
     color: #ff900e;
 
     font-weight: 500;
@@ -42,12 +46,95 @@
     line-height: 26px;
     text-align: center;
     color: #424242;
-} 
+}
 
 /* ----------Banner Image Part------------ */
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+}
+
+.banner-text {
+    width: 860px;
+    margin: 0;
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    color: #131313;
+}
+
+.banner-button {
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+
+.button-info {
+    background: #ff900e;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    line-height: 23px;
+    text-align: center;
+
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* -----------Feature Part----------- */
+
+.feature_section {
+    padding: 50px 0;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.feature {
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    gap: 70px;
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+
+}
+.team-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    
+}
+.feature-text{
+    width: 540px;
+    
+
+}
+.feature-text {
+    width: 540px;
+
+}
+.feature-text .explore-button{
+    text-align: left;
 }
